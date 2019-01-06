@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_green_gradient"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/difficulty_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/difficulty"
+        android:textColor="@color/colorAccent"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/levels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/round_bottom"
+        android:text="@string/easy"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/goBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:background="@drawable/round_bottom"
+        android:text="@string/go"
+        android:textSize="30dp" />
+
+</LinearLayout>

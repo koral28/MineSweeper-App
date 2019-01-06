@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mine Sweeper</string>
+    <string name="appName">שולה המוקשים</string>
+    <string name="score_table">טבלת נקודות</string>
+    <string name="exit">יציאה</string>
+    <string name="new_game">משחק חדש</string>
+    <string name="difficulty">רמת קושי</string>
+    <string name="easy">קל</string>
+    <string name="medium">בינוני</string>
+    <string name="hard">קשה</string>
+    <string name="custom">מותאם</string>
+    <string name="points">טבלת הניקוד</string>
+    <string name="user_name">שם</string>
+    <string name="user_points">ניקוד</string>
+    <string name="user_time">זמן</string>
+    <string name="user_time2">זמן</string>
+    <string name="congratulations">כל הכבוד</string>
+    <string name="you_made_it">עשית זאת!</string>
+    <string name="time">זמן:</string>
+    <string name="difficulty_win">רמת הקושי:</string>
+    <string name="main_menu">חזור לתפריט הראשי</string>
+    <string name="play_again">שחק שוב</string>
+    <string name="submit">הירשם בטבלת הניקוד</string>
+    <string name="lose_screen">הפסדת!</string>
+    <string name="winner_name">שם המנצח:</string>
+    <string name="enterYoureName">הזן את שמך</string>
+    <string name="time_win">הזמן שלך:</string>
+    <string name="instrouctions">הוראות המשחק</string>
+    <string name="instrouctions_full">לוח המשחק הוא לוח מרובע, המחולק למשבצות.
+        בלוח מפוזרים "מוקשים" בלתי נראים במיקומים אקראיים עם הלחיצה הראשונה על הלוח.
+        הלוח מתחלק ל-2 סוגי משבצות: משבצות עם מוקשים ומשבצות ללא מוקשים - משבצות ללא מוקשים מתחלקות גם הן ל-2 סוגים: משבצות עם מספר ובלי מספר.
+        כל משבצת בה אין מוקש תכיל מספר האומר כמה מוקשים יש סביבו, במידה ואין מספר, תיפתח קבוצה של משבצות - כל המשבצות הריקות עד לגבול שבו יש משבצת עם מספר (כולל).
+        מטרת המשחק היא לחשוף את כל המשבצות נטולות המוקשים בפרק זמן קצר ככל האפשר תוך כדי שימוש בשיטת האלימינציה ובלוגיקה פשוטה, אם כי לעיתים אין דרך לגלות ללא ניחוש.
+ </string>
+    <string name="go">מתחילים!</string>
+    <string name="medium_menu">בינוני</string>
+    <string name="hard_menu">קשה</string>
+    <string name="custom_menu">מותאם</string>
+    <string name="name_dialog">הזן את שמך</string>
+    <string name="clean_scores">נקה לוח</string>
+</resources>

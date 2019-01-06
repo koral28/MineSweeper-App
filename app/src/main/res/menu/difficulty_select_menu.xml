@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/easy_menu_option"
+        android:title="@string/easy" />
+    <item
+        android:id="@+id/medium_menu_option"
+        android:title="@string/medium_menu" />
+    <item
+        android:id="@+id/hard_menu_option"
+        android:title="@string/hard_menu" />
+    <item
+        android:id="@+id/custom_menu_option"
+        android:title="@string/custom_menu" />
+
+</menu>

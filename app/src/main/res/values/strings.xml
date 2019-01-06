@@ -1,0 +1,55 @@
+<!--<resources>
+    <string name="app_name">Mine Sweeper</string>
+    <string name="button_custom_text">Custom</string>
+    <string name="button_professional_text">Professional</string>
+    <string name="button_beginners_text">Beginners</string>
+    <string name="button_advanced_text">Advanced</string>
+    <string name="button_start_text">Start Playing</string>
+</resources>-->
+
+<resources>
+    <string name="app_name">Mine Sweeper</string>
+    <string name="appName">Minesweeper</string>
+    <string name="new_game">New Game</string>
+    <string name="score_table">Score Table</string>
+    <string name="exit">Exit</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="custom">Custom</string>
+    <string name="points">The Score Table</string>
+    <string name="user_name">Name</string>
+    <string name="user_points">Points</string>
+    <string name="user_time">Time</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="you_made_it">You\'ve made it!</string>
+    <string name="time">Time:</string>
+    <string name="difficulty_win">Difficulty:</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="play_again">Play again</string>
+    <string name="submit">Submit</string>
+    <string name="lose_screen">You\'ve lost!</string>
+    <string name="winner_name">Winner name:</string>
+    <string name="enterYoureName">Enter your name</string>
+    <string name="time_win">Your\'e time:</string>
+    <string name="instrouctions">Game Instructions</string>
+    <string name="instrouctions_full">The purpose of the game is to open all the cells of the board which do not contain a bomb.
+You lose if you set off a bomb cell. Every non-bomb cell you open will tell you the total number of bombs in the eight neighboring cells.
+Once you are sure that a cell contains a bomb, you can right-click to put a flag it on it as a reminder.
+Once you have flagged all the bombs around an open cell, you can quickly open the remaining non-bomb cells by shift-clicking on the cell.
+        Happy mine hunting!</string>
+    <string name="go">GO!</string>
+    <string name="medium_menu">Medium</string>
+    <string name="hard_menu">Hard</string>
+    <string name="custom_menu">Custom</string>
+    <string name="name_dialog">Enter your name</string>
+    <string name="clean_scores">Clean Scores</string>
+    <string name="Easy">easy_menu</string>
+    <string name="button_custom_text">Custom</string>
+    <string name="button_professional_text">Professional</string>
+    <string name="button_beginners_text">Beginners</string>
+    <string name="button_advanced_text">Advanced</string>
+    <string name="button_start_text">Start Playing</string>
+
+</resources>

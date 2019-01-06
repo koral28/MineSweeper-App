@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/continue_menu_option"
+        android:orderInCategory="1"
+        android:title="Return To Game" />
+
+    <item
+        android:id="@+id/quit_and_save_menu_option"
+        android:orderInCategory="2"
+        android:title="Quit And Save" />
+
+    <item
+        android:id="@+id/quit_menu_option"
+        android:orderInCategory="3"
+        android:title="Quit" />
+
+</menu>

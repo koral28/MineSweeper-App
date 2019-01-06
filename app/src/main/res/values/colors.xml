@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#aab6f4</color>
+    <color name="colorPrimaryDark">#8e84cf</color>
+    <color name="colorAccent">#02007b</color>
+
+    <color name="colorGradStart">#9ac6d1</color>
+    <color name="colorGradCenter">#c2c2dc</color>
+    <color name="colorGradEnd">#9eb3d4</color>
+
+
+    <!-- 1st Gradient color -->
+    <color name="colorPurple_A400">#b5f4a7</color>
+    <color name="colorPurple_900">#2bde8d</color>
+    <!-- ./ 1st Gradient color -->
+
+    <!-- 2nd Gradient color -->
+    <color name="colorAmber_A400">#fcc3a7</color>
+    <color name="colorAmber_900">#d2cec2</color>
+    <!-- ./ 2nd Gradient color -->
+
+    <!-- 3rd Gradient color -->
+    <color name="colorGreen_A400">#f7afff</color>
+    <color name="colorGreen_900">#e44cf2</color>
+    <!-- ./ 3rd Gradient color -->
+
+    <!-- 4th Gradient color -->
+    <color name="colorRed_A400">#ed918b</color>
+    <color name="colorRed_900">#ffe3b7</color>
+    <!-- ./ 4th Gradient color -->
+
+    <!-- 5th Gradient color -->
+    <color name="colorBlue_A400">#8bb7ed</color>
+    <color name="colorBlue_900">#c4ddfd</color>
+    <!-- ./ 4th Gradient color -->
+
+    <color name="colorGrey">#c8fff5</color>
+
+</resources>

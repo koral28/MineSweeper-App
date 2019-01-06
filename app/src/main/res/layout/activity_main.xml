@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_gradient_animation_list">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="120dp"
+            android:src="@drawable/bomb_move_gif" />
+
+        <TextView
+            android:id="@+id/minesweeper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Mines Sweeper"
+            android:textColor="@color/colorAccent"
+            android:textSize="36dp" />
+
+        <Button
+            android:id="@+id/new_game"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/new_game"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/high_score"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="@string/score_table"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="@string/exit"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/voice_settings_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_buttom"
+                android:src="@drawable/ic_volume_up_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/instructions_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_buttom"
+                android:src="@drawable/ic_info_outline_black_24dp"
+                android:text="@string/new_game" />
+
+            <ImageButton
+                android:id="@+id/feedback_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_buttom"
+                android:src="@drawable/ic_email_black_24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="99dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/bomb_move_gif" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
